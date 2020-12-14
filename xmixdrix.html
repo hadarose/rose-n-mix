@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+    
+<body>
+   
+    <h1>Let's Play<br>
+        <span style = "color: blueviolet">Tic -</span>
+        <span style = "color: yellowgreen">Tac -</span>
+        <span style = "color: palevioletred"> Toe!</span>
+    </h1>
+
+    <table>
+        <tr>
+        <td id = "cell0" onclick = "play(0)"></td>
+        <td id = "cell1" onclick = "play(1)"></td>
+        <td id = "cell2" onclick = "play(2)"></td>
+        </tr>
+        <tr>
+        <td id = "cell3" onclick = "play(3)"></td>
+        <td id = "cell4" onclick = "play(4)"></td>
+        <td id = "cell5" onclick = "play(5)"></td>
+        </tr>
+        <tr>
+        <td id = "cell6" onclick = "play(6)"></td>
+        <td id = "cell7" onclick = "play(7)"></td>
+        <td id = "cell8" onclick = "play(8)"></td>
+        </tr>
+    </table>
+
+    <div id = "prompt"></div>
+
+    <div id = "winningMsg"></div>
+    <button type = "button" id = "restartButton" onclick = "restart()">Restart</button>
+
+    <h3>Navigation Bar</h3>
+    <ul>
+        <li><button type = "button" onclick = "restart()">Restart Game</button></li>
+        <br>
+        <li><button type = "button" onclick = "undo()">Undo Last Move</button></li>
+        <br>
+        <li><button type = "button" onclick = "saveGame()">Save Game</button></li>
+        <br>
+        <li><button type = "button" onclick = "loadGame()">Load Last Game</button></li>
+        <br>
+
+      </ul>
+
+    <script src = "script.js"></script>
+
+    </body>
+
+</html>
+
