@@ -1,97 +1,80 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
 
-        h1 
-        {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 3rem;
-            font-family: sans-serif;
-        }
+table {
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-color: black;
+  border-collapse: collapse;
+  width: 320px;
+  height: 320px;
+}
 
-        table 
-        {
-            table-layout: fixed;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
-            border-color:black;
-            border-collapse: collapse;
-            width: 320px;
-            height: 320px;
-        }
-        
-        td 
-        {
-            text-align: center;
-            border: 10px solid;
-            border-color:black;
-            cursor: pointer;
-        }
+td {
+  text-align: center;
+  border: 10px solid;
+  border-color: black;
+  cursor: pointer;
+}
 
-        td:hover 
-        {
-            background-color: yellow;
-        }
+td:hover {
+  background-color: yellow;
+}
 
-        
-        tr:first-child td
-        {
-            border-top: none;
-        }
-        
-        tr:last-child td
-        {
-            border-bottom: none;
-        }
+tr:first-child td {
+  border-top: none;
+}
 
-        td:first-child
-        {
-            border-left: none;
-        }
+tr:last-child td {
+  border-bottom: none;
+}
 
-        td:last-child
-        {
-            border-right: none;
-        }
+td:first-child {
+  border-left: none;
+}
 
-        #prompt
-        {
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            color: red;
-            font-size: xx-large;
-            text-align: center;
-        }
-        
-        
-       #winningMsg
-        {
-            display: none;
-            background-color: violet;
-            opacity: 0.8;
-            justify-content: center;
-            align-items: center;
-            font-size: 5rem;
-            flex-direction: column;
-        }
-        
-        #restartButton 
-        {
-            display: none;
-            margin-top: 20px;
-            font-size: 3rem;
-            background-color: white;
-            border: 1px solid black;
-            cursor: pointer; 
-        }
+td:last-child {
+  border-right: none;
+}
 
-        #restartButton:hover
-        {
-            font-size: 3rem;
-            background-color: black;
-            border: 1px solid white;
-            color: white;
-            cursor: pointer;
-        }
+#prompt {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  font-size: xx-large;
+  text-align: center;
+}
 
-       
+#winningMsg {
+  display: none;
+  background-color: violet;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  flex-direction: column;
+}
+
+#restartButton {
+  display: none;
+  margin-top: 20px;
+  font-size: 3rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#restartButton:hover {
+  font-size: 3rem;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
